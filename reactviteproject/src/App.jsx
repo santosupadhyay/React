@@ -9,7 +9,7 @@ function App() {
     counter = counter +1;
     setCounter(counter);
     if(counter > 20){
-      setCounter(20);
+      setCounter(counter = 20);
     }
   }
   
@@ -17,11 +17,9 @@ function App() {
     counter = counter - 1;
     setCounter(counter);
     if (counter <= 0){
-      setCounter(0);
+      setCounter(counter = 0);
     }
-  }    
-
-
+  }
   return (
     <>
     <h1>Counter!</h1>
