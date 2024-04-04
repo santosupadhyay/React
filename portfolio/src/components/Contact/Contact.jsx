@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Socialmedia() {
+export default function Contact() {
   return (
     <div>
       
