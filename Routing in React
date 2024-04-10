@@ -1,0 +1,16 @@
+Routing in React
+	
+	<Route path = 'user/: userid' element={<User />} />
+
+
+user.jsx
+
+import {useParams} from 'react-router-dom'
+
+rfc
+
+const {userId} = useParams();
+
+<>
+	user: {userid}
+</>
