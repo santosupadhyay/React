@@ -14,3 +14,5 @@ const {userId} = useParams();
 <>
 	user: {userid}
 </>
+
+//Routing one into another 
